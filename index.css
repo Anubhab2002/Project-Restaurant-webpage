@@ -1,0 +1,321 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(rgba(0, 0, 0, 1),rgba(208, 229, 236, 0.6)),
+                    url("cover-img.jpg") no-repeat center center / cover;
+        @media screen and (max-width: 1000px) and (min-width: 768 px){
+                font-size: 80%;
+        }
+    }
+    .ul1{
+        margin: 0 0 0 250px;
+        padding: 0;
+        list-style: none;
+        text-align: right;
+    }
+    .headFont{
+        font-family: 'Indie Flower', cursive;
+        position: relative;
+        top: 0;
+    }
+    .nav1{
+        background-color: rgb(0, 0, 0);
+        overflow:hidden;
+        width: 100%;
+        height: 150px;
+        
+    }
+    .navBar{
+        float: right;
+        font-family: 'Indie Flower', cursive;
+        @media screen and (max-width: 1000px) and (min-width: 768 px) {
+            font-size:80%;
+            display: block;
+        }
+    }
+    .navBar-prop{
+        width: 300px;
+        display: block;
+        font-size: 30px;
+        padding: 20px 15px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .navBar-prop:hover{
+        /* background: rgb(209, 209, 209); */
+        color:rgb(194, 46, 125);
+        text-transform: uppercase;
+    }
+    .logo{
+        position: absolute;
+        margin: 0 100px 15px 0;
+    }
+    .imgOne{
+        margin-left: 10px;
+        height: 150px;
+        width: 175px;
+        filter: invert(1);
+    }
+    
+    .intro{
+        height: 460px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .intro1{
+        height: 460px;
+        width: 40%;
+        /* background-color: black; */
+        position: inherit;
+        top: 0;left: 0;
+        z-index: -1;
+    }
+
+    .vid1{
+        position: relative;
+        height: 460px;
+        width: 100%;
+        padding-left: 20px;
+        opacity: 1;
+        z-index: -1;
+    }
+
+
+    .intro2{
+        height: 460px;
+        width: 60%;
+        /* background-color:black; */
+       
+        /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url('Logo2.png')); */
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+    .title{
+        font-size: 5rem;
+        margin-top: 100px;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bolder;
+        text-shadow: 5px 5px 15px #ffffff;
+        margin-bottom: 0px;
+        color: white;
+    }
+    .subtitle{
+        font-size: 2rem;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bolder;
+        text-shadow: 5px 5px 15px yellow;
+        color: yellow;
+        margin: 0 0 50px 0;
+    }
+    .b1{
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        width: 500px;
+        height: 30px;
+        padding: 40px;
+        padding-top: 20px;
+        top: -20px;
+        font-family:cursive;
+        font-size: 20px;
+        color: aqua;
+        border: 2px solid aqua;
+        border-radius: 100px;
+        cursor: pointer;
+        transition: 1.5s;
+        background-color: black;
+    }
+    .b1:hover{
+        box-shadow: 0px 5px 20px 0 aqua inset,  0px 5px 20px 0 aqua,
+                    0px 5px 20px 0 aqua inset, 0px 5px 20px 0 aqua;
+        color: aqua;
+        font-size: 18px;
+        text-shadow: 2px 2px 10px white, 2px 2px 10px white;
+    }
+    .b2{
+        height: 80px;
+        width: 150px;
+        background-color: red;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        border: 3px solid white;
+        border-radius: 50px;
+    }
+    .b2:hover{
+        height: 80px;
+        width: 150px;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        border: 3px solid white;
+        border-radius: 50px;
+        background-color: lightgreen;
+    }
+    .b2:focus{
+        height: 80px;
+        width: 150px;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        border: 3px solid white;
+        border-radius: 50px;
+        background-color: green;
+    }
+    .b2:active{
+        height: 80px;
+        width: 150px;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        border: 3px solid white;
+        border-radius: 50px;
+        background-color: green;
+    }
+    .specialities{
+       text-align: center;
+    }
+    .sp-head h1{
+        font-family:'Permanent Marker', cursive;
+        color: white;
+        text-shadow: 2px 2px 10px white;
+        font-size: 60px;
+        transition:ease-in 1.5s;
+    }
+    .sp-head h2{
+        font-family:'Permanent Marker', cursive;
+        color: yellow;
+        text-shadow: 2px 2px 10px yellow;
+        font-size: 30px;
+    }
+    .sp-head h1:hover{
+        color: turquoise;
+    }
+
+    .special{
+        margin: 35px 35px 5px 35px;
+        display: flex;
+    }
+    .special2{
+        margin: 5px 35px 35px 35px;
+        display: flex;
+    }
+    .sp1{
+        border: 3px solid red;
+        background-color: rgb(236, 210, 209);
+        text-align: center;
+        padding: 15px;
+        margin: 30px 30px 5px 30px;
+        border-radius: 25px;
+        font-family: 'Indie Flower', cursive;
+    }
+    .sp2{
+        border: 3px solid rgb(146, 251, 146);
+        background-color: rgb(218, 240, 215);
+        text-align: center;
+        padding: 15px;
+        margin: 30px 30px 5px 30px;
+        border-radius: 25px;
+        font-family: 'Indie Flower', cursive;
+    }
+    .para-price{
+        text-align: right;
+    }
+    .sp1 p{
+        font-family: cursive;
+        font-size: 20px ;
+    }
+    .sp2 p{
+        font-family: cursive;
+        font-size: 20px ;
+    }
+    .sp1-img1{
+        height: 300px;
+        width: 105%;
+        position: relative;
+        left: -15px;
+        top: -15px;
+        display: block;
+        margin: auto;
+        border: 2px solid #decbcb;
+        border-radius: 25px;
+    }
+    .sp1-img2{
+        height: 40px;
+        width: 40px;
+        padding-left: 5px;
+        position: relative;
+        left: -8px;
+    }
+    .sp1-img3{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        left: -100px;
+        padding-left: 0px;
+        padding-right: 150px;
+    }
+    .recommendation{
+        height: 300px;
+    }
+    .reviews{
+        height: 300px;
+    }
+    .bottom{
+        background-color: rgba(208, 229, 236, 0.9);
+        padding-bottom: 20px;
+
+    }
+    .footer2{
+        /* float: left; */
+        display: inline-block;
+    }
+    .footer-ul{
+        text-align: center;
+    }
+    .footer{
+        padding-top:20px;
+        text-align: center;
+    }
+    .footer-link{
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        max-width: 100%;
+    }
+    .footer-link img.imgHover {
+        position: absolute;
+        top: -20px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+        opacity: 0;
+        transition: opacity .2s;
+    }
+    .footer-link:hover img.imgHover{
+        opacity: 1;
+    }
+    .imgHover{
+        height: 40px;
+        width: 40px;
+        padding-left: 16px;
+    }
+    .footer-link2{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .footer-link2:hover{
+        text-decoration: underline;
+        color: orangered;
+    }
+    .footer-link2:active{
+        text-decoration: underline;
+        color: orangered;
+    }
