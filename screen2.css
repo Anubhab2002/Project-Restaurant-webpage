@@ -1,0 +1,118 @@
+body{
+    overflow-x: hidden;
+}
+/* Navigation */
+.headFont{
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+.nav1{
+    flex-direction: column;
+}
+.navBar{
+    /* display: none; */
+    /* flex-direction: column; */
+}
+.ul1{
+    float: none;
+    /* flex-direction: column; */
+}
+.toggle{
+    position: absolute;
+    top: 3.5rem;
+    right: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.toggle .bar{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+
+}
+/* Intro part */
+.intro{
+    flex-direction: column;
+    height: 780px;
+}
+.intro2{
+    display: block;
+    margin:0 auto;
+    margin-bottom: 25px;
+}
+.intro1{
+    display: block;
+    margin:10px auto;
+}
+.b1{
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 25px;
+    padding-top: 2px;
+    
+}
+/* specialities */
+.specialities{
+
+}
+.special{
+    flex-direction: column;
+}
+.special2{
+    flex-direction: column;
+}
+.sp1{
+    display: block;
+    margin: 25px auto;
+    width: 70%;
+}
+.sp1-img1{
+   width: inherit;
+   height: 180px;
+}
+.sp2{
+    display: block;
+    margin: 25px auto;
+    width: 70%;
+}
+.para-price{
+    text-align: center;
+}
+.sp1-img2{
+    height: 7%;
+    width: 7%;
+    /* padding-left: 5px;
+    position: relative;
+    left: 0; */
+    display: block;
+    margin: 0 auto;
+}
+.sp1-img3{
+    height: 7%;
+    width: 7%;
+    /* position: relative;
+    left: 0px;
+    padding-left: 0px;
+    padding-right: 150px; */
+    display: block;
+    margin: 0 auto;
+
+}
+/* recommendation */
+.recommendations{
+
+}
+/* reviews */
+.reviews{
+
+}
+/* footer */
+.buttom{
+
+}
