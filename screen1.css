@@ -22,8 +22,9 @@ body{
 }
 /* Intro part */
 .intro{
-    flex-direction: column;
-    height: 780px;
+    /* flex-direction: column; */
+    /* height: 500px; */
+    /* flex-wrap: wrap; */
 }
 .intro2{
     display: block;
@@ -47,24 +48,30 @@ body{
     flex-wrap: wrap;
     flex-flow: row;
 }
-.sp1{
-    display: block;
-    margin: 10px;
-    width: 70%;
+.modal-box{
+    width: 31vw;
+    overflow-x: auto;
+    position: absolute;
+    left: 0,5vw;
 }
-.sp1-img1{
+/* .sp1{
+    display: block;
+    margin: 0px;
+    width: 70%;
+} */
+/* .sp1-img1{
    /* position: relative;
    top: 0;
    left: 25%;
    transform: translate(0,-25%); */
-   width: inherit;
-   height: 150px;
-}
-.sp2{
+   /* width: inherit;
+   height: 150px; */
+/* } */
+/* .sp2{
     display: block;
     margin: 10px;
     width: 70%;
-}
+} */
 /* recommendation */
 .recommendations{
 
@@ -73,6 +80,7 @@ body{
 .reviews{
 
 }
+
 /* footer */
 .buttom{
 
