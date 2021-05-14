@@ -2,37 +2,50 @@ body{
     overflow-x: hidden;
 }
 /* Navigation */
-.headFont{
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-}
+/* .logo{
+    float: none;
+    width: auto;
+    justify-content: center;
+} */
 .nav1{
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 .navBar{
     /* display: none; */
     /* flex-direction: column; */
 }
+.hide{
+    display: none;
+}
 .ul1{
+    /* display: none; */
     float: none;
-    /* flex-direction: column; */
+    position: fixed;
+    display: none;
+    z-index: 9;
+    left: -50vw;
+    right: 0;
+    top: 150px;
+    bottom: 100px;
+    width: auto;
+    height: auto;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    background: linear-gradient(rgba(0,0,0,0.95),rgba(52, 149, 240, 0.95));
+    transition: all ease-in-out 0.5s;
 }
-.toggle{
-    position: absolute;
-    top: 3.5rem;
-    right: 2.5rem;
+.ul1 a{
+    font-size: 30px;
+    color: white;
+}
+.icon-burger{
+    display: block;
+}
+nav :checked ~ .ul1{
+    bottom: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
 }
-.toggle .bar{
-    width: 100%;
-    height: 3px;
-    background-color: white;
 
-}
 /* Intro part */
 .intro{
     flex-direction: column;
@@ -73,8 +86,8 @@ body{
     width: 70%;
 }
 .sp1-img1{
-   width: inherit;
-   height: 180px;
+   width: 67.5vw;
+   height: 300px;
 }
 .sp2{
     display: block;
@@ -104,6 +117,12 @@ body{
     margin: 0 auto;
 
 }
+.modal-box{
+    width: 66vw;
+    position: absolute;
+    overflow-x: auto;
+    left: 1vw;
+}
 /* recommendation */
 .recommendations{
 
@@ -112,6 +131,102 @@ body{
 .reviews{
 
 }
+.review-sec{
+    flex-direction: column;
+    /* height: auto; */
+}
+.review-sec div{
+    /* display: block;
+    margin: auto; */
+}
+.reviews-sec div img{
+    height:150px;
+    width: 150px;
+}
+.form-sec{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 25px 0;
+}
+.form-sec h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: black;
+    text-shadow: 3px 3px 6px brown;
+    transition:ease-in-out 1s;
+}
+.form-1{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+#Name{
+    height: 20px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#E-mail{
+    height: 20px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#rating{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#image-customer{
+    margin-bottom: 5px;
+}
+#comment{
+    margin-bottom: 5px;
+}
+#reset{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid rgb(2, 224, 224);
+    border-radius: 25px;
+    
+}
+#reset:hover{
+    height: 40px;
+    width: 125px;
+    box-shadow: 3px 3px 10px rgb(2, 231, 231), 3px 3px 10px rgb(2, 231, 231);
+}
+#submit{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid rgb(56,231,2);
+    border-radius: 25px;
+}
+#submit:hover{
+    height: 40px;
+    width: 125px;
+    box-shadow: 3px 3px 10px rgb(56, 231, 2), 3px 3px 10px rgb(56, 231, 2);
+}
+
 /* footer */
 .buttom{
 
