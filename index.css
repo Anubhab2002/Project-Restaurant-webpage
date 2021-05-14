@@ -257,8 +257,8 @@ html{
     }
     .sp-head h2{
         font-family:'Permanent Marker', cursive;
-        color: yellow;
-        text-shadow: 2px 2px 10px yellow;
+        color: deepskyblue;
+        text-shadow: 2px 2px 10px deepskyblue;
         font-size: 30px;
     }
     .sp-head h1:hover{
