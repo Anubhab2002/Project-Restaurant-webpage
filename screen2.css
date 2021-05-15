@@ -1,4 +1,4 @@
-body{
+.body-wrapper{
     overflow-x: hidden;
 }
 /* Navigation */
@@ -8,11 +8,10 @@ body{
     justify-content: center;
 } */
 .nav1{
-    /* flex-direction: column; */
+    overflow-x: hidden;
 }
 .navBar{
-    /* display: none; */
-    /* flex-direction: column; */
+    overflow-x: hidden;
 }
 .hide{
     display: none;
